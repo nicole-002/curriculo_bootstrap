@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding-top: 80px;
+}
+
+.navbar{
+    top: 0;
+    width: 100%;
+    background-color:rgb(39, 39, 39);
+    position: fixed;
+    padding: 15px 50px;
+    z-index: 1000;
+}
+
+.menu-texto{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-link:hover,.btn:hover,.navbar-brand:hover,.navbar-toggler:hover {
+    color: #c300ff;
+}
+
+.img-fluid{
+    display: flex;
+    width: 35%;
+    text-align: center;
+}
+
+section{
+    width:100%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.bannertexto{
+    text-align: center;
+    color: #c300ff;
+    padding-top: 10%;
+}
+
+#bannerp{
+    text-align: center;
+}
+
+h1, h6, p{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.containerinicio{
+    padding: 5%;
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.secao2{
+    text-align: justify;
+    background-color: aliceblue;
+    color: black;
+    padding: 5%;   
+}
+
+.secao6{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;   
+}
+
+.barra{
+    text-align: center;
+    padding: 0.5%;
+    color: rgb(255, 255, 255);
+    
+}
+
+.cor_texbarra_in{
+    color: black;
+}
+
+.progress-bar{
+    background-color: #c300ff ;
+}
+
+footer{
+    padding: 2%;
+    background-color:rgb(39, 39, 39);
+    text-align: center;
+}
+
+.container02{
+    display: flex;
+    justify-content: space-evenly;        
+}
+
+.container03{
+    display: flex;
+    justify-content: space-around;            
+}
+
+.carrossel{   
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;  
+}
+
+.textcarrosselcontainer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; 
+    text-align: center;
+}
+
+.card-img-top{
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn{
+    background-color: #c300ff;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #e386ff;
+    color: black;
+    border: none;
+}
+
+/* teste mudança de cor das setas do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0) contrast(100%);
+}
